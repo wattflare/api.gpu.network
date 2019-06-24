@@ -14,7 +14,7 @@
     ]
   },
   "rig": {
-    "dataSource": mongo,
+    "dataSource": "mongo",
     "public": true
   }
 }
