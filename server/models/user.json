@@ -1,15 +1,18 @@
 {
-  "name": "rig",
-  "base": "PersistedModel",
+  "name": "user",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "timestamp": {
-      "type": "date",
-      "required": true,
-      "default": "$now"
+    "address": {
+      "type": "string"
+    },
+    "rigs": {
+      "type": [
+        "string"
+      ]
     }
   },
   "validations": [],

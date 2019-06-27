@@ -16,5 +16,9 @@
   "rig": {
     "dataSource": "mongo",
     "public": true
+  },
+  "user": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
